@@ -40,7 +40,7 @@ const CURRENCIES = {
                 tmp.shark_op = pre_s.log10().div(x.log10())
             } else tmp.shark_op = E(1)
 
-            x = x.min('ee9e15')
+            //x = x.min('ee9e15')
 
             return x
         },
